@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+ <html ng-app="mentorSite">
+ <head>
+    <title>Mentor</title>
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Exo:400,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	 <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+     <link rel="stylesheet" type="text/css" href="styles/main.css">
+	</head>
+  <body>
+   <div class="nav-bar-top">
+   	<ul class="nav-left">
+   		<li><a ui-sref="landing">Home</a></li>
+   		<li><a href="#">Mentors</a></li>
+   		<li><a href="#">Profile</a></li>
+   		<li><a href="#">Sign In</a></li>
+   		<li ng-show="user"><a href="#">Sign Out</a></li>
+   		<li><a href="#">Sign Up!</a></li>
+   	</ul>
+   	<!-- <ul class="sign-right">
+   		<li><a href="#">Sign In</a></li>
+   		<li ng-show="user"><a href="#">Sign Out</a></li>
+   		<li><a href="#">Sign Up!</a></li>
+   	</ul> -->
+   </div>
+   <div class="main-header">
+   	<h1 class="header-h1">Mentor Title</h1>
+   </div>
+   
+    <ui-view></ui-view>
+   
+ 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
+ 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+   	<script src="/scripts/app.js"></script>
+  </body>
+</html>
