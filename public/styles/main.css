@@ -20,38 +20,53 @@ html {
 }
 body {
 	font-family: 'Montserrat', sans-serif;
+	
 }
 /****** Nav Bar Styles ******/
 .nav-bar-top {
 	width: 100%;
-	background-color: black;
+	background-color: ;
 	display: flex;
-	justify-content: space-around;
-	align-content: center;
+	justify-content: space-between;
+	flex-direction: column;
 	padding: .3rem;
 	font-size: 1.3rem;
+	background: black;
+	padding-right: 3rem;
 }
-a{
+a, li{
+	list-style: none;
 	text-decoration: none;
 	color: white;
 }
+a:hover {
+	list-style: none;
+	text-decoration: none;
+}
+
 .nav-left {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
 }
-.sign-right {
+.nav-right {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 li {
 	list-style: none;
 	color: white;
 	display: flex;
-	justify-content: center;
 	margin-top: .3rem;
 	margin-bottom: .3rem;
 	width: 100%;
+}
+.nav-left li {
+	justify-content: space-around;
+}
+.nav-right li {
+	justify-content: flex-end;
 }
 ul {
 	width: 100%;
@@ -61,15 +76,16 @@ ul {
 .main-header {
 	position: relative;
 	background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)), url("/assets/images/header_mobile.jpg");
-	height: 15rem;
 	width: 100%;
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: center;
+	background-attachment: fixed;
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	flex-direction: column;
 	z-index: 10;
+	height: 100vh;
 }
 .main-header img{
 	position: absolute;
@@ -79,12 +95,21 @@ ul {
 	width: 100%;
 	z-index: -10;
 }
-.header-h1{
+.title-h1{
 	margin: auto;
 	color: white;
 	font-size: 3rem;
 	text-shadow: -3px 3px rgba(0,0,0,0.6);
 	z-index: 20;
+	position: absolute;
+	width: 100%;
+	top: 45%;
+	text-align: center;
+	transition-duration: .5s;
+	
+}
+.main-header:hover {
+	top: 45%;
 }
 /**** landing styles *****/
 .landing-container {
@@ -93,6 +118,11 @@ ul {
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
+}
+.move{
+	position: absolute;
+	width: 100%;
+	top: 65%;
 }
 .landing{
 	width: 80%;
@@ -119,45 +149,179 @@ ul {
   -webkit-justify-content: center;
   justify-content: center;
 	margin: auto;
+	color: white;
 }
 .landing-child h4{
 	width: auto;
 }
 
 .ion-ios-people, .ion-ios-calendar, .ion-ios-star {
-	color: rgb(0,0,0);
+	color: rgba(255,255,255,.8);
 	font-size: 8rem;
 }
+.ion-ios-people:hover, .ion-ios-calendar:hover, .ion-ios-star:hover {
+	color: steelblue;
+}
+.storm {
+	background-color: rgba(0,0,0,.6);
+	color: white;
+	border-radius: 1rem;
+	position: absolute;
+	width: 70%;
+	height: 575px;
+	top: 30%;
+	left: 15%;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	z-index: 999;
+}
+.container h2{
+	text-align: center;
+}
+.mentor-container {
+	background-color: rgba(0,0,0,.6);
+	position: relative;
+	color: white;
+	border-radius: 1rem;
+	position: absolute;
+	width: 95%;
+	height: 90%;
+	top: 8%;
+	left: 2.5%;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	z-index: 999;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
 
+.software {
+	top: 5%;
+}
+.icon-container {
+	display: flex;
+	flex-direction: row;
+	height: 70%;
+	flex-wrap: wrap;
+	
+	overflow: scroll;
+}
+.icon-container::-webkit-scrollbar { 
+	width: 0 !important;
+	height: 0 !important}
 
+.icons {
+	position: relative;
+	width: 45.3%;
+	height: 150px;
+	font-size: 1rem;
+	margin: .4rem;
+	text-align: center;
+}
+.user-right{
+	position: absolute;
+	bottom: 25px;
+	right: -10px;
+	color: dimgray;
+	width: 100%;
+	text-align: center;
+}
+.mentor {
+	color: white;
+}
+.title{
+	position: absolute;
+	top: 80px;
+	width: 100%;
+}
+.ion-ios-monitor-outline {
+	font-size: 8rem;
+}
+label {
+	display: inline-block;
+	float: left;
+}
+.edit-form {
+	margin-top: 3rem;
+	background: black;
+	padding: 1.2rem;
+	padding-bottom: 4rem;
+	font-size: .3rem;
+}
+.profile-info {
+	margin-top: 3rem;
+	background: black;
+	padding: 1rem;
+}
+select {
+	height: 400px;
+	width: 50px;
+}
+#option {
+	background-color: black;
+	font-weight: 800;
+	font-size: 2rem;
+}
+#user-h1 {
+	font-size: 2rem;
+}
+.inline {
+	display: inline-block;
+}
+.right {
+	float: right;
+	margin-left: 2rem;
+	font-size: 1.5rem;
+}
+.left{
+	font-size: 1.3rem;
+	text-align: left;
+	width: 100%;
+}
 
 /****** media queries  *****/
-
+@media (min-width: 580px){
+	.icons {
+	width: 30.3%;
+	height: 160px;
+	font-size: 1.2rem;
+	margin: .6rem;
+}
+	.title{
+	position: absolute;
+	top: 120px;
+	width: 100%;
+}
+.ion-ios-monitor-outline,.ion-paintbrush ,.ion-person ,.ion-hammer ,.ion-film-marker ,.ion-camera {
+	font-size: 12rem;
+}
+}
 @media (min-width: 650px){
 	body {
-		padding-top: 45px;
 	}
 	
 	.nav-bar-top {
 	position: fixed;
 	top: 0;
-	font-size: 1.5rem;
+	flex-direction: row;
+	font-size: 1.7rem;
 	z-index: 100;
+	background: none;
 }
 
 .nav-left {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 }
 	
 /***** header styles  ******/
 
 .main-header {
-	height: 19rem;
 }
 
-.header-h1{
+.title-h1{
 	font-size: 6rem;
 }
 	
@@ -174,6 +338,23 @@ ul {
 }
 	#landing-h1 {
 	font-size: 2.1rem;
+}
+	.storm {
+	height: 400px;
+}
+.user-right{
+	text-align: right;
+}
+	#user-h1 {
+	font-size: 3rem;
+}
+
+.right {
+	margin-left: 2rem;
+	font-size: 2rem;
+}
+.left{
+	font-size: 1.8rem;
 }
 
 

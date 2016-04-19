@@ -1,0 +1,42 @@
+<div class="mentor-container">
+	<h1 id="user-h1">Profile info for {{user.username}}</h1>
+	<div class="container"  ng-controller="ProfileCtrl">	
+			
+		<!-- <h2>{{info}}</h2> -->
+		<form name="profile" class="edit-form" ng-show="edit">
+		<fieldset class="form-inline">
+			<label for="">Name:</label>
+				<input class="form-control" type="text" name="input" ng-model="profile.name" placeholder="Input your name" value="{{info.name}}">
+			</fieldset>
+			<fieldset  class="form-inline">
+			<label for="">Age:</label>
+				<select ng-model="profile.age"><option id="option" ng-repeat="option in ranges(10,100)"value="{{option}}">{{info.age}}</option></select>
+			</fieldset>
+			<fieldset class="form-inline">
+			<label for="">Topic of Interest: </label>
+				<input class="form-control" type="text" name="input" ng-model="profile.topic" placeholder="Examples: business, photography, html">
+			</fieldset>
+			<fieldset class="form-inline">
+			<label for="">Years experience:</label>
+				<select ng-model="profile.years"><option id="option" ng-repeat="option in ranges(1,30)"value="{{option}}"></option></select>
+			</fieldset>
+			<fieldset class="form-inline">
+			<label for="">Background: </label>
+				<textarea class="form-control" type="text" name="input" ng-model="profile.background" placeholder="Describe yourself and goals from mentoring"></textarea>
+			</fieldset>
+			<br>
+			<input type="submit" value="Save" class="btn btn-success pull-right" ng-click="save()">
+		</form>
+		<div class="profile-info pull-right" ng-show="!edit">
+			<div class="info- pull-left">
+				<h3 class='inline left'>Name: <span class="right">{{info.name}}</span></h3><br>
+				<h3 class='inline left'>Age: <span class="right">{{info.age}}</span></h3><br>
+				<h3 class='inline left'>Topic of Intreset:<span class="right">{{info.topic}}</span></h3><br>
+				<h3 class='inline left'>Years of Experience: <span class="right">{{info.years}}</span></h3><br>
+				<h3 class='inline left'>Background info: </h3><h5 class=''>{{info.background}}</h5>
+			
+				<button class="btn btn-danger pull-right" ng-click="edit = true">Edit</button>
+			</div>
+		</div>
+	</div>
+</div>

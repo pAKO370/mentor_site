@@ -3,6 +3,7 @@
  <head>
     <title>Mentor</title>
     <meta name="viewport" content="width=device-width, initial-scale= 1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Exo:400,900' rel='stylesheet' type='text/css'>
@@ -11,31 +12,39 @@
      <link rel="stylesheet" type="text/css" href="styles/normalize.css">
      <link rel="stylesheet" type="text/css" href="styles/main.css">
 	</head>
-  <body>
+  <body ng-controller="MainCtrl">
    <div class="nav-bar-top">
    	<ul class="nav-left">
    		<li><a ui-sref="landing">Home</a></li>
-   		<li><a href="#">Mentors</a></li>
-   		<li><a href="#">Profile</a></li>
-   		<li><a href="#">Sign In</a></li>
-   		<li ng-show="user"><a href="#">Sign Out</a></li>
-   		<li><a href="#">Sign Up!</a></li>
+   		<li><a ui-sref="topics">Topics</a></li>
+   		<li><a ui-sref="profile">Profile</a></li>
+   		</ul>
+   	<ul class="nav-right">
+   		<li><a ui-sref="loginState" sp-logout if-not-user>Log In</a></li>
+   		<li><a ui-sref="landing" sp-logout if-user>Log Out</a></li>
+   		<li><a ui-sref="signUp" if-not-user>Sign Up!</a></li>
+   	
    	</ul>
-   	<!-- <ul class="sign-right">
-   		<li><a href="#">Sign In</a></li>
-   		<li ng-show="user"><a href="#">Sign Out</a></li>
-   		<li><a href="#">Sign Up!</a></li>
-   	</ul> -->
    </div>
    <div class="main-header">
-   	<h1 class="header-h1">Mentor Title</h1>
+		<p class="user-right" sp-logout if-user>Logged in as: {{user.username}}</p>
    </div>
    
     <ui-view></ui-view>
-   
+   	
+   	
+		
  		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
  		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
    	<script src="/scripts/app.js"></script>
+   	<script src="scripts/services/Fixtures.js"></script>
+   	<script src="scripts/controllers/TopicsCtrl.js"></script>
+   	<script src="scripts/controllers/MainCtrl.js"></script>
+   	<script src="scripts/controllers/ProfileCtrl.js"></script>
+   	<script src="scripts/storm_path/stormpath-sdk-angularjs.min.js"></script>
+ 		<script src="scripts/storm_path/stormpath-sdk-angularjs.tpls.min.js"></script>
+ 		<script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+		<script src="https://cdn.firebase.com/libs/angularfire/1.0.0/angularfire.min.js"></script>
   </body>
 </html>

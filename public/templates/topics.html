@@ -1,0 +1,14 @@
+<div class="mentor-container">
+	<h1 class="mentor">Mentor Topics</h1>
+	<h3 class="mentor">We have may different topics to choose from.</h3>
+	<h4 class="mentor">Please click on a topic to view the available mentors!</h4>
+	<br>
+	<div  ng-controller="TopicsCtrl"  class="icon-container">
+		<div ng-repeat="topic in topics" class="icons">
+			<a  ui-sref="{{topic.template}}"><span ng-class="topic.class"></span></a>
+			<h1 class="title">{{topic.title}}</h1>
+		</div>
+	</div>
+	
+	
+</div>
