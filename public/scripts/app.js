@@ -26,7 +26,10 @@
 		})
 		.state('profile',{
 			url: '/profile',
-			templateUrl: 'templates/profile.html'
+			templateUrl: 'templates/profile.html',
+			sp: {
+				authenticate: true
+			}
 		})
 		.state('software', {
 			url: '/software',
@@ -52,13 +55,17 @@
 			url: '/photography',
 			templateUrl: 'templates/topics/photography.html'
 		})
+		.state('connor',{
+			url: '/johnO',
+			templateUrl: 'templates/topics/mentors/connor.html'
+		})
 		
 	}
 
 
 
 
-	angular.module('mentorSite', ["ui.router","stormpath", "stormpath.templates","firebase"])
+	angular.module('mentorSite', ["ui.router","stormpath", "stormpath.templates","firebase"/*,"lr.upload"*/])
 	.config(config)
 	.run(function($stormpath) {
 		$stormpath.uiRouter({

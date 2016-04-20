@@ -10,10 +10,19 @@
 		{title: 'Acting', class: 'ion-film-marker',template: 'acting'},
 		{title: 'Photography', class: 'ion-camera',template: 'photography'}
 	];
+	var softwareMentors = [
+		{name:"John O'Connor", image: "/assets/images/john-oConnor.jpg", subjects: "Javascript, HTML, CSS, Angular, Java, C#",years: "20", template: "connor"},
+		{name:"Phil Fluegel", image: "/assets/images/phil.jpg", subjects: "Javascript, HTML, CSS, Angular", years: "1",template: "phil"},
+		{name:"Adam Louis", image: "/assets/images/adam-louis.jpg", subjects: "Ruby, Ruby on Rails", years: "7",template: "adam"}
+	];
+		
 		
 	
 	Fixtures.getTopics = function(){
 		return topics;
+	};
+	Fixtures.getMentor = function(){
+		return softwareMentors;
 	};
 		return Fixtures;
 }

@@ -1,1 +1,13 @@
-<h1 class="mentor-container software">software</h1>
+<div class="mentor-container" ng-controller="MentorCtrl" >
+	<h1 class="software">Software Mentors</h1>
+	<h5>Choose one to schedule an appointment</h5>
+	<h1 if-not-user> You Must be Signed In to View This Page</h1>
+	<div class="icon-container clearfix" if-user>
+		<div class="icons clearfix mentor-panel" ng-repeat="mentors in software">
+			<a ui-sref="{{mentors.template}}"><img src="{{mentors.image}}" class="mentor-image" alt="">
+			<h2>{{mentors.name}}</h2>
+			<h3>Subjects: <span><h4>{{mentors.subjects}}</h4></span></h3>
+			<h4>Years Experience: <span><h5>{{mentors.years}}</h5></span></h4></a>
+		</div>
+	</div>
+</div>

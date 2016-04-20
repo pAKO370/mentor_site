@@ -17,12 +17,12 @@
    	<ul class="nav-left">
    		<li><a ui-sref="landing">Home</a></li>
    		<li><a ui-sref="topics">Topics</a></li>
-   		<li><a ui-sref="profile">Profile</a></li>
+   		<li if-user><a ui-sref="profile">Profile</a></li>
    		</ul>
    	<ul class="nav-right">
-   		<li><a ui-sref="loginState" sp-logout if-not-user>Log In</a></li>
-   		<li><a ui-sref="landing" sp-logout if-user>Log Out</a></li>
-   		<li><a ui-sref="signUp" if-not-user>Sign Up!</a></li>
+   		<li if-not-user><a ui-sref="loginState" sp-logout>Log In</a></li>
+   		<li if-user><a ui-sref="landing" sp-logout>Log Out</a></li>
+   		<li if-not-user><a ui-sref="signUp">Sign Up!</a></li>
    	
    	</ul>
    </div>
@@ -33,7 +33,7 @@
     <ui-view></ui-view>
    	
    	
-		
+		<!-- <script src='bower_components/angular-upload/angular-upload.min.js'></script> -->
  		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
  		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
@@ -42,9 +42,11 @@
    	<script src="scripts/controllers/TopicsCtrl.js"></script>
    	<script src="scripts/controllers/MainCtrl.js"></script>
    	<script src="scripts/controllers/ProfileCtrl.js"></script>
+   	<script src="scripts/controllers/MentorCtrl.js"></script>
    	<script src="scripts/storm_path/stormpath-sdk-angularjs.min.js"></script>
  		<script src="scripts/storm_path/stormpath-sdk-angularjs.tpls.min.js"></script>
  		<script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
 		<script src="https://cdn.firebase.com/libs/angularfire/1.0.0/angularfire.min.js"></script>
+		
   </body>
 </html>
