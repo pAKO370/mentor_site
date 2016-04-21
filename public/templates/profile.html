@@ -1,4 +1,5 @@
 <div class="mentor-container" ng-controller="ProfileCtrl">
+	<div  ng-show="editable">
 		<form name="profile" class="edit-form" ng-show="editable">
 		<fieldset class="form-inline">
 			<label for="">Name:</label>
@@ -23,29 +24,35 @@
 			<br>
 			<input type="submit" value="Save" class="btn btn-success pull-right" ng-click="save()">
 		</form>
-		<div ng-show="!editable" class="new-profile">
-			<h1 id="user-h1">Profile info for {{user.username}}</h1>
-			<h3>Name: <span>{{info.name}}</span></h3>
-			<h3>Age: <span>{{info.age}}</span></h3>
-			<h3>Topic: <span>{{info.topic}}</span></h3>
-			<h3>Years: <span>{{info.years}}</span></h3>
-			<h3>Background:</h3>
-			<p>{{info.background}}</p>
-			<button class="btn btn-danger pull-right" ng-click="edit()">Edit</button>
-		</div>
-	<!-- 	<div class="profile-info clearfix">
-			<div class="image-left pull-left" ng-show="!editable"><img src="/assets/images/header_mobile.jpg" alt=""></div>
-			<div class="info-">
-				<h3 class='inline left'>Name: <span class="right">{{info.name}}</span></h3><br>
-				<h3 class='inline left'>Age: <span class="right">{{info.age}}</span></h3><br>
-				<h3 class='inline left'>Topic of Intrest:<p class="right">{{info.topic}}</p></h3><br>
-				<h3 class='inline left'>Years of Experience: <span class="right">{{info.years}}</span></h3><br>
-				<div class="background">
-				<h3>Background info: </h3>
-				<p class='background'>{{info.background}}</p>
-				</div>
-				<button class="btn btn-danger pull-right" ng-click="edit()">Edit</button>
-			</div>
-		</div> -->
 	</div>
+	<div class="profile-info" ng-show="!editable">
+		<gravatar-image></gravatar-image>
+		<br>
+		<table style="width:100%">
+  		<tr>
+    		<td>Name:</td>
+    		<td>{{info.name}}</td>
+  		</tr>
+  		<tr>
+    		<td>Age</td>
+    		<td>{{info.age}}</td>
+  		</tr>
+  		<tr>
+    		<td>Topics: </td>
+    		<td>{{info.topic}}</td>
+  		</tr>
+  		<tr>
+    		<td>Years Experience:</td>
+    		<td>{{info.years}}</td>
+  		</tr>
+  		<tr>
+    		<td id="center">Background</td>
+    		<td></td>
+  		</tr>
+		</table>
+		<p>{{info.background}}</p>
+		
+		<button class="btn btn-danger pull-right" ng-click="edit()">Edit</button>
+	</div>		
+</div>
 
