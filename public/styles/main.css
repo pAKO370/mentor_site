@@ -202,7 +202,9 @@ ul {
 	overflow-x: hidden;
 	overflow-y: scroll; 
 }
-
+.testy {
+	flex-direction: row;
+}
 .software {
 	top: 5%;
 }
@@ -236,6 +238,13 @@ ul {
 .mentor-panel {
 	border-radius: 5px;
 	background: rgba(255,255,255,0.5);
+}
+.schedule-page {
+	border-radius: 5px;
+	background: red;
+	width: 65%;
+	height: 500px;
+	margin-left: 3%;
 }
 .user-right{
 	position: absolute;
