@@ -23,6 +23,7 @@ html {
 }
 body {
 	font-family: 'Montserrat', sans-serif;
+	background: black;
 	
 }
 /****** Nav Bar Styles ******/
@@ -82,7 +83,6 @@ ul {
 	width: 100%;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -188,8 +188,8 @@ ul {
 	color: white;
 	border-radius: 1rem;
 	position: absolute;
+	padding: 2rem;
 	width: 95%;
-	height: 90%;
 	top: 12%;
 	left: 2.5%;
 	padding-left: 2.5rem;
@@ -333,6 +333,10 @@ td {
 		width: 100%;
 		text-align: center;
 	}
+.gravatar img{
+		border-radius: 5px;
+	
+	}
 /****** media queries  *****/
 @media (min-width: 580px){
 	.icons {
@@ -348,6 +352,7 @@ td {
 }
 	.mentor-panel img {
 	width: 80%;
+	max-width: 200px;
 }
 }
 @media (min-width: 650px){
@@ -355,13 +360,14 @@ td {
 	}
 	.mentor-container {
 		flex-direction: column;
-	top: 7%;
-}
+		top: 7%;
+		height: 90%
+	}
 	.connor {
 	display: flex;
 	flex-direction: column;
 }
-.mentor-panel {
+.mentor-panel-2 {
 	width: 20%;
 	border-radius: 5px;
 	background: rgba(255,255,255,0.5);
@@ -468,6 +474,7 @@ td {
 	.gravatar img{
 		border-radius: 5px;
 	}
+
 	.inline {
 	display: inline-block;
 }
