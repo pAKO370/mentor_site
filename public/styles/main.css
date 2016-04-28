@@ -213,7 +213,7 @@ ul {
 	flex-direction: row;
 	height: 70%;
 	flex-wrap: wrap;
-	
+	justify-content: space-between;
 	overflow: scroll;
 }
 .icon-container::-webkit-scrollbar, .mentor-container::-webkit-scrollbar { 

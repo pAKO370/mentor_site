@@ -15,6 +15,7 @@
 			.state('loginState',{
 			url: '/login',
 			templateUrl: 'templates/login.html'
+			
 		})
 		.state('signUp', {
 			url: '/signup',
@@ -59,13 +60,21 @@
 			url: '/johnO',
 			templateUrl: 'templates/topics/mentors/connor.html'
 		})
+		.state('phil',{
+			url: '/philF',
+			templateUrl: 'templates/topics/mentors/phil.html'
+		})
+		.state('adam',{
+			url: '/adamL',
+			templateUrl: 'templates/topics/mentors/adam.html'
+		})
 		
 	}
 
 
 
 
-	angular.module('mentorSite', ["ui.router","stormpath", "stormpath.templates","firebase"/*,"lr.upload"*/])
+	angular.module('mentorSite', ["ui.router","stormpath", "stormpath.templates","firebase"])
 	.config(config)
 	.run(function($stormpath) {
 		$stormpath.uiRouter({
