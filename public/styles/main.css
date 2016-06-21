@@ -51,12 +51,17 @@ a:hover {
 .nav-left {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
+	width: 50%;
 }
 .nav-right {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	width: 40%;
+	position: absolute;
+	top: 2px;
+	right: 5%;
 }
 li {
 	list-style: none;
@@ -64,7 +69,7 @@ li {
 	display: flex;
 	margin-top: .3rem;
 	margin-bottom: .3rem;
-	width: 100%;
+	width: 100px;
 }
 .nav-left li {
 	justify-content: space-around;
@@ -79,7 +84,7 @@ ul {
 
 .main-header {
 	position: relative;
-	background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)), url("/assets/images/header_mobile.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)), url("/assets/images/busy-street.jpg");
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -102,7 +107,7 @@ ul {
 .title-h1{
 	margin: auto;
 	color: white;
-	font-size: 3rem;
+	font-size: 5rem;
 	text-shadow: -3px 3px rgba(0,0,0,0.6);
 	z-index: 20;
 	position: absolute;
@@ -110,7 +115,6 @@ ul {
 	top: 20%;
 	text-align: center;
 	transition-duration: .5s;
-	
 }
 .main-header:hover {
 	top: 45%;
@@ -161,10 +165,12 @@ ul {
 
 .ion-ios-people, .ion-ios-calendar, .ion-ios-star {
 	color: rgba(255,255,255,.8);
-	font-size: 8rem;
+	font-size: 12rem;
+	transition: all .3s ease-in-out;
 }
 .ion-ios-people:hover, .ion-ios-calendar:hover, .ion-ios-star:hover {
 	color: steelblue;
+	transform: scale(1.2);
 }
 .storm {
 	background-color: rgba(0,0,0,.6);
@@ -234,6 +240,8 @@ ul {
 	width: 70%;
 	border-radius: 5px;
 	margin-bottom: 2rem;
+	min-height: 200px;
+	max-height: 200px;
 }
 .connor {
 	display: block;
@@ -347,6 +355,10 @@ td {
 	.title{
 	top: 130px;
 }
+	.nav-left {
+		width: 50%;
+		justify-content: space-around;
+	}
 .ion-ios-monitor-outline,.ion-paintbrush ,.ion-person ,.ion-hammer ,.ion-film-marker ,.ion-camera {
 	font-size: 12rem;
 }
@@ -406,7 +418,7 @@ td {
 }
 
 .title-h1{
-	font-size: 6rem;
+	font-size: 9rem;
 }
 	
 	/****landing *****/
