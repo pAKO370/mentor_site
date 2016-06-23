@@ -1,9 +1,15 @@
 var express = require("express");
-var app = express();
 var stormpath = require('express-stormpath');
 
+var app = express();
+
 app.use(express.static("public"));
-app.use(stormpath.init(app, { }));
+
+app.use(stormpath.init(app, {
+  expand: {
+    customData: true
+  }
+}));
 
 
 
