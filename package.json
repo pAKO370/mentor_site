@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4",
-    "express-stormpath": "^3.1.2"
+    "express": "^4.13.4"
   }
 }

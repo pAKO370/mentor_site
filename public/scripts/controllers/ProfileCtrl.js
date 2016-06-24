@@ -1,10 +1,10 @@
 (function(){
-	function ProfileCtrl($scope, $user,$firebaseArray,$firebaseObject){
+	function ProfileCtrl($scope,$firebaseArray,$firebaseObject){
 		//$scope.username = {};
 		
 		
 	
-		$user.get()
+		/*$user.get()
     .then(function (user) {
       console.log('The current user is', user);
 			//$scope.username = user;
@@ -21,6 +21,7 @@
     });
 		
 		
+		
 
 		//var ref = new Firebase("https://mentorsite.firebaseio.com/users/" + $scope.user.username);
 										 
@@ -29,7 +30,7 @@
 		//$scope.info = $firebaseObject(ref);
 		//$scope.profile = $scope.info;
 		
-	
+	*/
 		
 			$scope.save = function(){
 				$scope.editable = !$scope.editable;

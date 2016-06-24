@@ -20,8 +20,8 @@
    		<li if-user><a ui-sref="profile">Profile</a></li>
    		</ul>
    	<ul class="nav-right">
-   		<li if-not-user><a ui-sref="loginState" sp-logout>Log In</a></li>
-   		<li if-user><a ui-sref="landing" sp-logout>Log Out</a></li>
+   		<li if-not-user><a ui-sref="login">Log In</a></li>
+   		<li if-user><a ui-sref="landing">Log Out</a></li>
    		<li if-not-user><a ui-sref="signUp">Sign Up!</a></li>
    	
    	</ul>
@@ -46,8 +46,6 @@
    	<script src="scripts/directives/gravatarImage.js"></script>
    	<script src="scripts/directives/calendly.js"></script>
    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-   	<script src="/scripts/storm_path/stormpath.js"></script>
- 		<script src="scripts/storm_path/stormpath-sdk-angularjs.tpls.min.js"></script>
  		<script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
 		<script src="https://cdn.firebase.com/libs/angularfire/1.0.0/angularfire.min.js"></script>
 		<script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>

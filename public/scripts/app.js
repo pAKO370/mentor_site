@@ -12,14 +12,13 @@
 				templateUrl: 'templates/landing.html',
 				controller: 'MainCtrl'
 		})
-			.state('loginState',{
-			url: '/login',
-			templateUrl: 'templates/login.html'
-			
-		})
+		.state('login',{
+				url: '/login',
+				templateUrl: 'templates/user/login.html'	
+		}) 
 		.state('signUp', {
 			url: '/signup',
-			templateUrl: 'templates/signup.html'
+			templateUrl: 'templates/user/register.html'
 		})
 		.state('topics', {
 			url: '/topics',
@@ -74,12 +73,8 @@
 
 
 
-	angular.module('mentorSite', ["ui.router","stormpath", "stormpath.templates","firebase"])
+	angular.module('mentorSite', ["ui.router","firebase"])
 	.config(config)
-	.run(function($stormpath) {
-		$stormpath.uiRouter({
-			loginState: 'login',
-			defaultPostLoginState: 'landing'
-		})
-	});
+
+	
 })();

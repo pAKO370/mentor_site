@@ -1,5 +1,4 @@
 
-@import "bower_components/angular-upload/src/directives/btnUpload.less";
 *, *::before, *::after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -178,12 +177,13 @@ ul {
 	border-radius: 1rem;
 	position: absolute;
 	width: 70%;
-	height: 575px;
-	top: 30%;
+	min-height: 560px;
+	top: 20%;
 	left: 15%;
-	padding-left: 2.5rem;
-	padding-right: 2.5rem;
+	padding-left: 10%;
+	padding-right: 10%;
 	z-index: 999;
+
 }
 .container h2{
 	text-align: center;

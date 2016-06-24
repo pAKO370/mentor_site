@@ -1,5 +1,5 @@
 (function() {
-	function MainCtrl($scope, $user, $rootScope){
+	function MainCtrl($scope, $rootScope){
   	/*$rootScope.$on('$stateChangeStart',
 			function(event, toState, toParams, fromState, fromParams){
 				if (fromState.name == 'loginState'){
