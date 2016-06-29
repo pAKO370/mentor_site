@@ -1,4 +1,5 @@
 var express = require("express");
+var port = Number(process.env.PORT || 3000);
 
 var app = express();
 
@@ -6,7 +7,6 @@ app.use(express.static("public"));
 
 
 
-  app.listen(3000, function () {
+  app.listen(port, function () {
     //...
   });
-
