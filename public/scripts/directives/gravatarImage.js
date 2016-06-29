@@ -1,5 +1,5 @@
 (function() {
-	function gravatarImage($document, $user){
+	function gravatarImage($document, Auth){
 		return{
 			templateUrl: '/templates/directives/gravatar.html',
 			replace: true,
@@ -286,19 +286,18 @@
     			};
 				})(jQuery);
 				
-				$user.get()
-    			.then(function (user) {
-      		console.log('This is in the directive', user);
-					//$scope.username = user;
-			
-						var gravatarEmail = user.username;
+				var auth = Auth;
+		
+				var authData = auth.$getAuth();
+
+    			// any time auth status updates, add the user data to scope
+    		
+				var gravatarEmail = authData.password.email;
+				
 						console.log("This is in the directive 2" + gravatarEmail);
 						$('.gravatar').append($.gravatar(gravatarEmail, {secure: true,
                                                          size: 200}));
-					})
-					.catch(function (error) {
-						console.log('Error getting user', error);
-					});
+				
 				
 			}
 		}

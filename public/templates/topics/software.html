@@ -1,8 +1,7 @@
 <div class="mentor-container" ng-controller="MentorCtrl" >
 	<h1 class="software">Software Mentors</h1>
 	<h5>Choose one to schedule an appointment</h5>
-	<h1 if-not-user> You Must be Signed In to View This Page</h1>
-	<div class="icon-container clearfix" if-user>
+	<div class="icon-container clearfix">
 		<div class="icons clearfix mentor-panel" ng-repeat="mentors in software">
 			<a ui-sref="{{mentors.template}}"><img src="{{mentors.image}}" class="mentor-image" alt="">
 			<h2>{{mentors.name}}</h2>

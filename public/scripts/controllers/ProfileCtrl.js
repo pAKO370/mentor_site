@@ -1,9 +1,19 @@
 (function(){
-	function ProfileCtrl($scope,$firebaseArray,$firebaseObject){
+	function ProfileCtrl($scope, $firebaseObject, $firebaseAuth,Auth){
 		//$scope.username = {};
 		
+		$scope.auth = Auth;
 		
+		var authData = $scope.auth.$getAuth();
+
+   
 	
+		console.log(authData.password.email);
+		var fireUrl = authData.password.email;
+			fireUrl = fireUrl.replace("@","_");
+			fireUrl = fireUrl.replace(".","_");
+			var ref = new Firebase("https://mentorsite.firebaseIO.com/users/"+fireUrl);
+			$scope.info = $firebaseObject(ref);
 		/*$user.get()
     .then(function (user) {
       console.log('The current user is', user);

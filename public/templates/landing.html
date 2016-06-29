@@ -1,9 +1,15 @@
 
 <h1 class="title-h1">Mentor Hub</h1>
+
+<div class="logged-in" ng-controller="UserCtrl">
+	<p ng-show="authData">Logged in as {{ authData.password.email }}</p>
+</div>
 <div class="move">
+
 <div class="landing-container">
 <br>
 	<h1 id="landing-h1">Advance in your field with a mentor!</h1>
+	
 	<div class="landing">
 		<div class="landing-child">
 			

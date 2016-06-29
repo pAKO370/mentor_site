@@ -1,15 +1,16 @@
 
 (function() {
-	function calendly($document, $user){
+	function calendly($document,Fixtures){
 		return{
-			template: '<div class="calendly-inline-widget" data-url="https://calendly.com/pfluegelcx" style="min-width:320px;height:750px;"></div>',
+			templateUrl: 'templates/directives/calendy.html' ,
 			replace: true,
 			restrict: 'E',
-			scope:  {
-			},
+			scope:  {},
 			link: function(scope, element, attributes) {
+				var mentors = Fixtures.getMentor();
+				var calendy = mentors[1].calendy;
+				$('.cal').append(calendy);
 				Calendly.initInlineWidgets()
-				
 				
 			}
 		};

@@ -33,11 +33,17 @@
 		})
 		.state('software', {
 			url: '/software',
-			templateUrl: 'templates/topics/software.html'
+			templateUrl: 'templates/topics/software.html',
+			resolve: {
+				"currentAuth": ['Auth' , function(Auth){
+					return Auth.$requireAuth();
+				}]
+			}
 		})
 		.state('design', {
 			url: '/design',
 			templateUrl: 'templates/topics/design.html'
+			
 		})
 		.state('business', {
 			url: '/business',
