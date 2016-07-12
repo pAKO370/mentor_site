@@ -6,6 +6,7 @@
 			requireBase: false
 		});
 		
+		
 		$stateProvider
 			.state('landing', {
 				url: '/',
@@ -23,6 +24,10 @@
 		.state('topics', {
 			url: '/topics',
 			templateUrl: 'templates/topics.html'
+		})
+		.state('info',{
+			url: '/info',
+			templateUrl: 'templates/info.html'
 		})
 		.state('profile',{
 			url: '/profile',

@@ -3,6 +3,8 @@
 		
 		$scope.auth = Auth;
 		//registers new user
+		
+		//registers new user
 		$scope.addUser = function(){
 			$scope.message = null;
       $scope.error = null;
@@ -37,6 +39,8 @@
 			};
 			
 		}
+		
+		//login function
 		$scope.login = function(){
 			$scope.authData = null;
 			$scope.error = null;
@@ -67,7 +71,7 @@
 		$scope.auth.$onAuth(function(authData) {
     	$scope.authData = authData;
     })
-		 
+		 //log out function
 		$scope.logout = function() {
     	$scope.auth.$unauth();
   	};

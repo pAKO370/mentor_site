@@ -1,23 +1,23 @@
 <div class="mentor-container" ng-controller="ProfileCtrl">
-	<div  ng-show="editable">
+	<div  ng-show="editable" class="editable">
 		<form name="profile" class="edit-form" ng-show="editable">
-		<fieldset class="form-inline">
+		<fieldset class="form-group">
 			<label for="">Name:</label>
 				<input class="form-control" type="text" name="input" ng-model="profile.name" placeholder="Input your name" value="{{info.name}}">
 			</fieldset>
-			<fieldset  class="form-inline">
+			<fieldset  class="form-group">
 			<label for="">Age:</label>
-				<select ng-model="profile.age"><option id="option" ng-repeat="option in ranges(10,100)"value="{{option}}" placeholder="{{info.age}}">{{option}}</option></select>
+				<select class="form-control" ng-model="profile.age"><option id="option" ng-repeat="option in ranges(10,100)"value="{{option}}" placeholder="{{info.age}}">{{option}}</option></select>
 			</fieldset>
-			<fieldset class="form-inline">
+			<fieldset class="form-group">
 			<label for="">Topic of Interest: </label>
 				<input class="form-control" type="text" name="input" ng-model="profile.topic" placeholder="Examples: business, photography, html">
 			</fieldset>
-			<fieldset class="form-inline">
+			<fieldset class="form-group">
 			<label for="">Years experience:</label>
-				<select ng-model="profile.years"><option id="option" ng-repeat="option in ranges(1,30)"value="{{option}}">{{option}}</option></select>
+				<select class="form-control" ng-model="profile.years"><option id="option" ng-repeat="option in ranges(1,30)"value="{{option}}">{{option}}</option></select>
 			</fieldset>
-			<fieldset class="form-inline">
+			<fieldset class="form-group">
 			<label class="back" for="">Background: </label>
 				<textarea type="text" name="input" ng-model="profile.background" placeholder="Describe yourself and goals from mentoring"></textarea>
 			</fieldset>

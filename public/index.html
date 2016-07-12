@@ -17,12 +17,13 @@
    	<ul class="nav-left">
    		<li><a ui-sref="landing">Home</a></li>
    		<li><a ui-sref="topics">Topics</a></li>
-   		<li><a ui-sref="profile" ng-show='authData'>Profile</a></li>
+   		<li><a href="" ui-sref="info">About</a></li>
+   		<li ng-show='authData'><a ui-sref="profile">Profile</a></li>
    		</ul>
    	<ul class="nav-right">
-   		<li><a ui-sref="login" ng-hide="authData">Log In</a></li>
-   		<li><a ui-sref="landing" ng-click="logout()" ng-show='authData'>Log Out</a></li>
-   		<li><a ui-sref="signUp" ng-hide="authData">Sign Up!</a></li>
+   		<li ng-hide="authData"><a ui-sref="login">Log In</a></li>
+   		<li ng-show="authData"><a ui-sref="landing" ng-click="logout()">Log Out</a></li>
+   		<li ng-hide="authData"><a ui-sref="signUp">Sign Up!</a></li>
    	
    	</ul>
    </div>
