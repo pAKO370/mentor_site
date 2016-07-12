@@ -9,7 +9,7 @@
 		
 		$stateProvider
 			.state('landing', {
-				url: '/',
+				url: '/#',
 				templateUrl: 'templates/landing.html',
 				controller: 'MainCtrl'
 		})
