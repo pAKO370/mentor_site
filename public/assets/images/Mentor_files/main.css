@@ -537,6 +537,7 @@ td {
 	position: relative;
 	width: 95%;
 	padding-bottom: 75%;
+	background: red;
 	margin: 2.5%;
 	overflow: hidden;
 	border: 2px solid white;

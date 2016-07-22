@@ -2,707 +2,729 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
-	"\/assets\/images\/adam-louis.jpg": {
+	"\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app.js",
+		"outputAbbreviatedPath": "\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/public\/assets\/images\/adam-louis.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 34893,
-		"inputAbbreviatedPath": "\/assets\/images\/adam-louis.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/adam-louis.jpg",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/adam-louis.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/adam-louis.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/amy.jpg": {
+	"\/public\/assets\/images\/amy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 43681,
-		"inputAbbreviatedPath": "\/assets\/images\/amy.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/amy.jpg",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/amy.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/amy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/busy-street.jpg": {
+	"\/public\/assets\/images\/busy-street.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 472969,
-		"inputAbbreviatedPath": "\/assets\/images\/busy-street.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/busy-street.jpg",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/busy-street.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/busy-street.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/calendly-min.png": {
+	"\/public\/assets\/images\/calendly-min.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 75886,
-		"inputAbbreviatedPath": "\/assets\/images\/calendly-min.png",
-		"outputAbbreviatedPath": "\/assets\/images\/calendly-min.png",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/calendly-min.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/calendly-min.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/calendly.png": {
+	"\/public\/assets\/images\/calendly.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 291871,
-		"inputAbbreviatedPath": "\/assets\/images\/calendly.png",
-		"outputAbbreviatedPath": "\/assets\/images\/calendly.png",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/calendly.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/calendly.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/GoogleHangoutTrevor.jpg": {
+	"\/public\/assets\/images\/GoogleHangoutTrevor.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 13625,
-		"inputAbbreviatedPath": "\/assets\/images\/GoogleHangoutTrevor.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/GoogleHangoutTrevor.jpg",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/GoogleHangoutTrevor.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/GoogleHangoutTrevor.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/hangouts-min.png": {
+	"\/public\/assets\/images\/hangouts-min.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 133508,
-		"inputAbbreviatedPath": "\/assets\/images\/hangouts-min.png",
-		"outputAbbreviatedPath": "\/assets\/images\/hangouts-min.png",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/hangouts-min.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/hangouts-min.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/hangouts.png": {
+	"\/public\/assets\/images\/hangouts.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 509782,
-		"inputAbbreviatedPath": "\/assets\/images\/hangouts.png",
-		"outputAbbreviatedPath": "\/assets\/images\/hangouts.png",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/hangouts.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/hangouts.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/header_larger.jpg": {
+	"\/public\/assets\/images\/header_larger.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 928407,
-		"inputAbbreviatedPath": "\/assets\/images\/header_larger.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/header_larger.jpg",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/header_larger.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/header_larger.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/header_mobile.jpg": {
+	"\/public\/assets\/images\/header_mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 208133,
-		"inputAbbreviatedPath": "\/assets\/images\/header_mobile.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/header_mobile.jpg",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/header_mobile.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/header_mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/john-oConnor.jpg": {
+	"\/public\/assets\/images\/john-oConnor.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 21026,
-		"inputAbbreviatedPath": "\/assets\/images\/john-oConnor.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/john-oConnor.jpg",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/john-oConnor.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/john-oConnor.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/jQuery Get Started.html": {
+	"\/public\/assets\/images\/jQuery Get Started.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/jQuery Get Started.html",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/jQuery Get Started.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/images\/mac copy.png": {
+	"\/public\/assets\/images\/mac copy.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6456,
-		"inputAbbreviatedPath": "\/assets\/images\/mac copy.png",
-		"outputAbbreviatedPath": "\/assets\/images\/mac copy.png",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/mac copy.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/mac copy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/Mentor.html": {
+	"\/public\/assets\/images\/Mentor.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor.html",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/images\/Mentor_files\/angular-resource.min.js": {
+	"\/public\/assets\/images\/Mentor_files\/angular-resource.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/angular-resource.min.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/angular-resource.min-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/angular-resource.min.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/angular-resource.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/angular-ui-router.min.js": {
+	"\/public\/assets\/images\/Mentor_files\/angular-ui-router.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/angular-ui-router.min.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/angular-ui-router.min-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/angular-ui-router.min.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/angular-ui-router.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/angular.min.js": {
+	"\/public\/assets\/images\/Mentor_files\/angular.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/angular.min.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/angular.min-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/angular.min.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/angular.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/angularfire.min.js": {
+	"\/public\/assets\/images\/Mentor_files\/angularfire.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/angularfire.min.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/angularfire.min-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/angularfire.min.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/angularfire.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/app.js": {
+	"\/public\/assets\/images\/Mentor_files\/app.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/app.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/app-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/app.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/app-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/Auth.js": {
+	"\/public\/assets\/images\/Mentor_files\/Auth.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/Auth.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/Auth-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/Auth.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/Auth-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/bootstrap.min.css": {
+	"\/public\/assets\/images\/Mentor_files\/bootstrap.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/bootstrap.min.css",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/bootstrap.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/images\/Mentor_files\/calendly.js": {
+	"\/public\/assets\/images\/Mentor_files\/calendly.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/calendly.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/calendly-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/calendly.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/calendly-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/firebase.js": {
+	"\/public\/assets\/images\/Mentor_files\/firebase.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/firebase.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/firebase-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/firebase.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/firebase-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/Fixtures.js": {
+	"\/public\/assets\/images\/Mentor_files\/Fixtures.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/Fixtures.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/Fixtures-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/Fixtures.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/Fixtures-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/gravatarImage.js": {
+	"\/public\/assets\/images\/Mentor_files\/gravatarImage.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/gravatarImage.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/gravatarImage-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/gravatarImage.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/gravatarImage-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/ionicons.min.css": {
+	"\/public\/assets\/images\/Mentor_files\/ionicons.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/ionicons.min.css",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/ionicons.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/images\/Mentor_files\/jquery.min.js": {
+	"\/public\/assets\/images\/Mentor_files\/jquery.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/jquery.min.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/jquery.min-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/jquery.min.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/jquery.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/main.css": {
+	"\/public\/assets\/images\/Mentor_files\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/main.css",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/images\/Mentor_files\/MainCtrl.js": {
+	"\/public\/assets\/images\/Mentor_files\/MainCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/MainCtrl.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/MainCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/MainCtrl.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/MainCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/MentorCtrl.js": {
+	"\/public\/assets\/images\/Mentor_files\/MentorCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/MentorCtrl.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/MentorCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/MentorCtrl.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/MentorCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/normalize.css": {
+	"\/public\/assets\/images\/Mentor_files\/normalize.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/normalize.css",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/normalize.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/images\/Mentor_files\/ProfileCtrl.js": {
+	"\/public\/assets\/images\/Mentor_files\/ProfileCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/ProfileCtrl.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/ProfileCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/ProfileCtrl.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/ProfileCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/TopicsCtrl.js": {
+	"\/public\/assets\/images\/Mentor_files\/TopicsCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/TopicsCtrl.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/TopicsCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/TopicsCtrl.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/TopicsCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/UserCtrl.js": {
+	"\/public\/assets\/images\/Mentor_files\/UserCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/UserCtrl.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/UserCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/UserCtrl.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/UserCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/Mentor_files\/widget.js": {
+	"\/public\/assets\/images\/Mentor_files\/widget.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/images\/Mentor_files\/widget.js",
-		"outputAbbreviatedPath": "\/assets\/images\/Mentor_files\/min\/widget-min.js",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/widget.js",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/Mentor_files\/min\/widget-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/images\/phil.JPG": {
+	"\/public\/assets\/images\/phil.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 494254,
-		"inputAbbreviatedPath": "\/assets\/images\/phil.JPG",
-		"outputAbbreviatedPath": "\/assets\/images\/phil.JPG",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/phil.JPG",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/phil.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/topics-min.png": {
+	"\/public\/assets\/images\/topics-min.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 657370,
-		"inputAbbreviatedPath": "\/assets\/images\/topics-min.png",
-		"outputAbbreviatedPath": "\/assets\/images\/topics-min.png",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/topics-min.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/topics-min.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/images\/topics.png": {
+	"\/public\/assets\/images\/topics.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2.23488e+06,
-		"inputAbbreviatedPath": "\/assets\/images\/topics.png",
-		"outputAbbreviatedPath": "\/assets\/images\/topics.png",
+		"inputAbbreviatedPath": "\/public\/assets\/images\/topics.png",
+		"outputAbbreviatedPath": "\/public\/assets\/images\/topics.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
+	"\/public\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
+		"inputAbbreviatedPath": "\/public\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/scripts\/app.js": {
+	"\/public\/scripts\/app.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/app.js",
-		"outputAbbreviatedPath": "\/scripts\/min\/app-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/app.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/min\/app-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/controllers\/MainCtrl.js": {
+	"\/public\/scripts\/controllers\/MainCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/controllers\/MainCtrl.js",
-		"outputAbbreviatedPath": "\/scripts\/controllers\/min\/MainCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/controllers\/MainCtrl.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/controllers\/min\/MainCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/controllers\/MentorCtrl.js": {
+	"\/public\/scripts\/controllers\/MentorCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/controllers\/MentorCtrl.js",
-		"outputAbbreviatedPath": "\/scripts\/controllers\/min\/MentorCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/controllers\/MentorCtrl.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/controllers\/min\/MentorCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/controllers\/ProfileCtrl.js": {
+	"\/public\/scripts\/controllers\/ProfileCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/controllers\/ProfileCtrl.js",
-		"outputAbbreviatedPath": "\/scripts\/controllers\/min\/ProfileCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/controllers\/ProfileCtrl.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/controllers\/min\/ProfileCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/controllers\/TopicsCtrl.js": {
+	"\/public\/scripts\/controllers\/TopicsCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/controllers\/TopicsCtrl.js",
-		"outputAbbreviatedPath": "\/scripts\/controllers\/min\/TopicsCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/controllers\/TopicsCtrl.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/controllers\/min\/TopicsCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/controllers\/UserCtrl.js": {
+	"\/public\/scripts\/controllers\/UserCtrl.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/controllers\/UserCtrl.js",
-		"outputAbbreviatedPath": "\/scripts\/controllers\/min\/UserCtrl-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/controllers\/UserCtrl.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/controllers\/min\/UserCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/directives\/calendly.js": {
+	"\/public\/scripts\/directives\/calendly.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/directives\/calendly.js",
-		"outputAbbreviatedPath": "\/scripts\/directives\/min\/calendly-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/directives\/calendly.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/directives\/min\/calendly-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/directives\/gravatarImage.js": {
+	"\/public\/scripts\/directives\/gravatarImage.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/directives\/gravatarImage.js",
-		"outputAbbreviatedPath": "\/scripts\/directives\/min\/gravatarImage-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/directives\/gravatarImage.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/directives\/min\/gravatarImage-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/services\/Auth.js": {
+	"\/public\/scripts\/services\/Auth.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/services\/Auth.js",
-		"outputAbbreviatedPath": "\/scripts\/services\/min\/Auth-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/services\/Auth.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/services\/min\/Auth-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scripts\/services\/Fixtures.js": {
+	"\/public\/scripts\/services\/Fixtures.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/services\/Fixtures.js",
-		"outputAbbreviatedPath": "\/scripts\/services\/min\/Fixtures-min.js",
+		"inputAbbreviatedPath": "\/public\/scripts\/services\/Fixtures.js",
+		"outputAbbreviatedPath": "\/public\/scripts\/services\/min\/Fixtures-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/styles\/main.css": {
+	"\/public\/styles\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/main.css",
+		"inputAbbreviatedPath": "\/public\/styles\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles\/main.min.css": {
+	"\/public\/styles\/main.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/main.min.css",
+		"inputAbbreviatedPath": "\/public\/styles\/main.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles\/normalize.css": {
+	"\/public\/styles\/normalize.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles\/normalize.css",
+		"inputAbbreviatedPath": "\/public\/styles\/normalize.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/directives\/calendy.html": {
+	"\/public\/templates\/directives\/calendy.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/directives\/calendy.html",
+		"inputAbbreviatedPath": "\/public\/templates\/directives\/calendy.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/directives\/gravatar.html": {
+	"\/public\/templates\/directives\/gravatar.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/directives\/gravatar.html",
+		"inputAbbreviatedPath": "\/public\/templates\/directives\/gravatar.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/info.html": {
+	"\/public\/templates\/info.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/info.html",
+		"inputAbbreviatedPath": "\/public\/templates\/info.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/landing.html": {
+	"\/public\/templates\/landing.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/landing.html",
+		"inputAbbreviatedPath": "\/public\/templates\/landing.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/profile.html": {
+	"\/public\/templates\/profile.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/profile.html",
+		"inputAbbreviatedPath": "\/public\/templates\/profile.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics.html": {
+	"\/public\/templates\/topics.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics\/acting.html": {
+	"\/public\/templates\/topics\/acting.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics\/acting.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics\/acting.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics\/business.html": {
+	"\/public\/templates\/topics\/business.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics\/business.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics\/business.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics\/construction.html": {
+	"\/public\/templates\/topics\/construction.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics\/construction.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics\/construction.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics\/design.html": {
+	"\/public\/templates\/topics\/design.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics\/design.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics\/design.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics\/mentors\/adam.html": {
+	"\/public\/templates\/topics\/mentors\/adam.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics\/mentors\/adam.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics\/mentors\/adam.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics\/mentors\/connor.html": {
+	"\/public\/templates\/topics\/mentors\/connor.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics\/mentors\/connor.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics\/mentors\/connor.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics\/mentors\/phil.html": {
+	"\/public\/templates\/topics\/mentors\/phil.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics\/mentors\/phil.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics\/mentors\/phil.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics\/photography.html": {
+	"\/public\/templates\/topics\/photography.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics\/photography.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics\/photography.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/topics\/software.html": {
+	"\/public\/templates\/topics\/software.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/topics\/software.html",
+		"inputAbbreviatedPath": "\/public\/templates\/topics\/software.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/user\/login.html": {
+	"\/public\/templates\/user\/login.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/user\/login.html",
+		"inputAbbreviatedPath": "\/public\/templates\/user\/login.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/user\/register.html": {
+	"\/public\/templates\/user\/register.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/user\/register.html",
+		"inputAbbreviatedPath": "\/public\/templates\/user\/register.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -715,9 +737,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "public",
+	"displayValue": "mentor_site",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "pencil_brown"
+	"iconImageName": "brackets_brown"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

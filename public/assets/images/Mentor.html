@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://localhost:3000/#/ -->
+<html ng-app="mentorSite" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <title>Mentor</title>
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
+    <link rel="stylesheet" href="./Mentor_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./Mentor_files/ionicons.min.css">
+    <link href="./Mentor_files/css" rel="stylesheet" type="text/css">
+    <link href="./Mentor_files/css(1)" rel="stylesheet" type="text/css">
+    <link href="./Mentor_files/css(2)" rel="stylesheet" type="text/css">
+	 <link href="./Mentor_files/css(3)" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" type="text/css" href="./Mentor_files/normalize.css">
+     <link rel="stylesheet" type="text/css" href="./Mentor_files/main.css">
+	<script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script></head>
+  <body ng-controller="MainCtrl" class="ng-scope" cz-shortcut-listen="true">
+   <div class="nav-bar-top ng-scope" ng-controller="UserCtrl">
+   	<ul class="nav-left">
+   		<li><a ui-sref="landing" href="http://localhost:3000/#/#">Home</a></li>
+   		<li><a ui-sref="topics" href="http://localhost:3000/#/topics">Topics</a></li>
+   		<li><a href="http://localhost:3000/#/info" ui-sref="info">About</a></li>
+   		<li ng-show="authData" class=""><a ui-sref="profile" href="http://localhost:3000/#/profile">Profile</a></li>
+   		</ul>
+   	<ul class="nav-right">
+   		<li ng-hide="authData" class="ng-hide"><a ui-sref="login" href="http://localhost:3000/#/login">Log In</a></li>
+   		<li ng-show="authData" class=""><a ui-sref="landing" ng-click="logout()" href="http://localhost:3000/#/#">Log Out</a></li>
+   		<li ng-hide="authData" class="ng-hide"><a ui-sref="signUp" href="http://localhost:3000/#/signup">Sign Up!</a></li>
+   	
+   	</ul>
+   </div>
+   <div class="main-header">
+   
+   </div>
+   
+    <!-- uiView: undefined --><ui-view class="ng-scope">
+<div class="landing-title title ng-scope">
+	<h1>Mentor Hub</h1>
+	<h4>Advance in your field, with the help of a mentor! <span ui-sref="info" href="#/info">Click Here to Learn More!</span></h4>
+		<div class="landing">
+		<div class="landing-child">
+			<span class="ion-ios-people" ui-sref="topics" href="#/topics"></span>
+				<h4>Choose your mentor</h4>
+		</div>
+		<div class="landing-child">
+			<span class="ion-ios-calendar"></span>
+			<h4>Schedule a meeting</h4>
+		</div>
+		<div class="landing-child">
+			<span class="ion-ios-star" ui-sref="signUp" href="#/signup"></span>
+			<h4>Free Account</h4>
+		</div>
+	</div>
+</div>
+
+
+<div class="logged-in ng-scope" ng-controller="UserCtrl">
+	<p ng-show="authData" class="ng-binding">Logged in as pfluegelcx@gmail.com</p>
+</div>
+<div class="move ng-scope">
+
+<div class="landing-container">
+<br>
+	
+	
+
+</div>
+</div></ui-view>
+   	
+   	
+		<!-- <script src='bower_components/angular-upload/angular-upload.min.js'></script> -->
+ 		<script src="./Mentor_files/angular.min.js"></script>
+		<script src="./Mentor_files/angular-resource.min.js"></script>
+ 		<script src="./Mentor_files/angular-ui-router.min.js"></script>
+   	<script src="./Mentor_files/app.js"></script>
+   	<script src="./Mentor_files/Fixtures.js"></script>
+   	<script src="./Mentor_files/Auth.js"></script>
+   	<script src="./Mentor_files/TopicsCtrl.js"></script>
+   	<script src="./Mentor_files/MainCtrl.js"></script>
+   	<script src="./Mentor_files/ProfileCtrl.js"></script>
+   	<script src="./Mentor_files/MentorCtrl.js"></script>
+   	<script src="./Mentor_files/UserCtrl.js"></script>
+   	<script src="./Mentor_files/gravatarImage.js"></script>
+   	<script src="./Mentor_files/calendly.js"></script>
+   	<script src="./Mentor_files/jquery.min.js"></script>
+ 		<script src="./Mentor_files/firebase.js"></script>
+		<script src="./Mentor_files/angularfire.min.js"></script>
+		<script type="text/javascript" src="./Mentor_files/widget.js"></script>
+		
+  
+<div id="window-resizer-tooltip" style="display: none;"><a href="http://localhost:3000/#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1421</span> x <span class="tooltipHeight" id="winHeight">1023</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1421</span> x <span class="tooltipHeight" id="vpHeight">884</span></div></body></html>

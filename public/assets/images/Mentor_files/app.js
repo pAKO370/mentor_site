@@ -2,14 +2,14 @@
 	function config($stateProvider, $locationProvider){
 		$locationProvider
 			.html5Mode({
-			enabled: true,
-		  requireBase: false
+			enabled: false,
+			requireBase: false
 		});
 		
 		
 		$stateProvider
 			.state('landing', {
-				url: '/',
+				url: '/#',
 				templateUrl: 'templates/landing.html',
 				controller: 'MainCtrl'
 		})
@@ -86,7 +86,10 @@
 
 	angular.module('mentorSite', ["ui.router","firebase"])
 	.config(config)
-	
+	.run(['$state', '$stateParams',
+    function($state, $stateParams) {
+        //this solves page refresh and getting back to state
+}]);
 
 	
 })();
