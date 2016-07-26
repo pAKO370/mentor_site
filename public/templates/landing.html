@@ -1,33 +1,62 @@
 
 <div class="landing-title title">
-	<h1>Mentor Hub</h1>
-	<h4>Advance in your field, with the help of a mentor! <span ui-sref="info">Click Here to Learn More!</span></h4>
-		<div class="landing">
-		<div class="landing-child">
-			<span class="ion-ios-people" ui-sref="topics"></span>
-				<h4>Choose your mentor</h4>
-		</div>
-		<div class="landing-child">
-			<span class="ion-ios-calendar"></span>
-			<h4>Schedule a meeting</h4>
-		</div>
-		<div class="landing-child">
-			<span class="ion-ios-star" ui-sref="signUp"></span>
-			<h4>Free Account</h4>
-		</div>
-	</div>
-</div>
-
-
 <div class="logged-in" ng-controller="UserCtrl">
 	<p ng-show="authData">Logged in as {{ authData.password.email }}</p>
 </div>
-<div class="move">
-
-<div class="landing-container">
-<br>
-	
-	
+	<h1>Mentor Hub</h1>
+	<h4>Advance in your field, with the help of a mentor!</h4>
+	<h4> <span>Scroll down to learn more!</span></h4>
+	<scroll-arrow></scroll-arrow>
+</div>
+<info></info>
+<div class="second">
+	<div class="landing-child">
+		<span class="ion-ios-star" ui-sref="signUp"></span>
+		<h4>Sign Up</h4>
+	</div>
+	<div class="landing-child">
+		<span class="ion-ios-people" ui-sref="topics"></span>
+		<h4>Choose your mentor</h4>
+	</div>
+	<div class="landing-child">
+		<span class="ion-ios-calendar"></span>
+		<h4>Schedule a meeting</h4>
+	</div>
 
 </div>
+
+<div class="footer">
+	<div class="left-nav">
+		<ul>
+				<li><a ui-sref="landing">Home</a></li>
+				<li><a ui-sref="topics">Topics</a></li>
+				<li ng-show='authData'><a ui-sref="profile">Profile</a></li>
+				<li ng-hide="authData"><a ui-sref="login">Log In</a></li>
+				<li ng-show="authData"><a ui-sref="landing" ng-click="logout()">Log Out</a></li>
+				<li ng-hide="authData"><a ui-sref="signUp">Sign Up!</a></li>
+   	</ul>
+	</div>
+	<div class="social-media">
+		<h3>Connect With Us</h3>
+					<ul>
+						<li><h5><span class="ion-social-twitter"></span>Twitter</h5></li>
+						<li><h5><span class="ion-social-facebook"></span>Facebook</h5></li>
+						<li><h5><span class="ion-social-linkedin"></span>Linkedin</h5></li>
+					</ul>
+	</div>
+	<div class="contact-form">
+		<h3>Contact Us!</h3>
+				<form action="https://getsimpleform.com/messages?form_api_token=cb6f0abcaa9c9dca6ca6581bf7037db6" method="post" class="form-group has-danger">
+				  <input type='hidden' name='redirect_to' value='http://pfluegel.github.io/accurate/index.html' />
+					<div class="form-group">
+						<label for="">Email: </label>
+						<input id="email-input" type="email" name="email" class="form-control-sm" placeholder="Enter your eMail here!">
+					</div>
+					<fieldset class="form-group">
+						<label for="exampleTextarea">Text:  </label>
+						<textarea name="message" class="form-control" id="exampleTextarea" rows="5"></textarea>
+					</fieldset>
+					<button class="btn btn-primary sub">SEND</button>
+				</form>
+	</div>	
 </div>

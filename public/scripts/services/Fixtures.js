@@ -4,7 +4,7 @@
 	
 	var topics =[
 		{title: 'Software', class: 'ion-ios-monitor-outline',template: 'software'},
-		{title: 'Deisgn', class: 'ion-paintbrush',template: 'design'},
+		{title: 'Design', class: 'ion-paintbrush',template: 'design'},
 		{title: 'Business', class: 'ion-person',template: 'business'},
 		{title: 'Construction', class: 'ion-hammer',template: 'construction'},
 		{title: 'Acting', class: 'ion-film-marker',template: 'acting'},

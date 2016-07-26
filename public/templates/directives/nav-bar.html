@@ -1,0 +1,25 @@
+<div class="nav">
+	<div class="mobile-nav">
+  	<ul>
+				<li><a ui-sref="landing">Home</a></li>
+				<li><a ui-sref="topics">Topics</a></li>
+				<li ng-show='authData'><a ui-sref="profile">Profile</a></li>
+				<li ng-hide="authData"><a ui-sref="login">Log In</a></li>
+				<li ng-show="authData"><a ui-sref="landing" ng-click="logout()">Log Out</a></li>
+				<li ng-hide="authData"><a ui-sref="signUp">Sign Up!</a></li>
+				<li><span class="ion-chevron-up"></span></li>
+   	</ul>
+  </div>
+  <div class="nav-bar-top" ng-controller="UserCtrl">
+  		<span class="ion-navicon-round"></span>
+   		<h3>MENTOR HUB</h3>
+  		<ul>
+				<li><a ui-sref="landing">Home</a></li>
+				<li><a ui-sref="topics">Topics</a></li>
+				<li ng-show='authData'><a ui-sref="profile">Profile</a></li>
+				<li ng-hide="authData"><a ui-sref="login">Log In</a></li>
+				<li ng-show="authData"><a ui-sref="landing" ng-click="logout()">Log Out</a></li>
+				<li ng-hide="authData"><a ui-sref="signUp">Sign Up!</a></li>
+   	</ul>
+	</div>
+</div>

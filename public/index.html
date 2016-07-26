@@ -9,32 +9,16 @@
     <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Exo:400,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	  <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/mac%20copy.png">
      <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-     <link rel="stylesheet" type="text/css" href="styles/main.css">
+     <link rel="stylesheet" type="text/css" href="styles/new-main.css">
 	</head>
-  <body ng-controller="MainCtrl">
-   <div class="nav-bar-top" ng-controller="UserCtrl">
-   	<ul class="nav-left">
-   		<li><a ui-sref="landing">Home</a></li>
-   		<li><a ui-sref="topics">Topics</a></li>
-   		<li><a href="" ui-sref="info">About</a></li>
-   		<li ng-show='authData'><a ui-sref="profile">Profile</a></li>
-   		</ul>
-   	<ul class="nav-right">
-   		<li ng-hide="authData"><a ui-sref="login">Log In</a></li>
-   		<li ng-show="authData"><a ui-sref="landing" ng-click="logout()">Log Out</a></li>
-   		<li ng-hide="authData"><a ui-sref="signUp">Sign Up!</a></li>
-   	
-   	</ul>
-   </div>
-   <div class="main-header">
-   
-   </div>
-   
+  <body ng-controller="MainCtrl" ng-controller="UserCtrl">
+  <div class="site-container">
+  	<nav-bar></nav-bar>
     <ui-view></ui-view>
-   	
+    
+   </div>
    	
 		<!-- <script src='bower_components/angular-upload/angular-upload.min.js'></script> -->
  		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
@@ -48,6 +32,9 @@
    	<script src="scripts/controllers/ProfileCtrl.js"></script>
    	<script src="scripts/controllers/MentorCtrl.js"></script>
    	<script src="scripts/controllers/UserCtrl.js"></script>
+   	<script src="scripts/directives/navBar.js"></script>
+   	<script src="scripts/directives/info.js"></script>
+   	<script src="scripts/directives/scrollArrow.js"></script>
    	<script src="scripts/directives/gravatarImage.js"></script>
    	<script src="scripts/directives/calendly.js"></script>
    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

@@ -1,0 +1,1 @@
+!function(){function o(o){return{templateUrl:"templates/directives/scroll-arrow.html",replace:!0,restrict:"E",scope:{},link:function(o,t,e){function n(o,t){$(o).click(function(){$("html, body").animate({scrollTop:$(t).offset().top-55},"slow")})}n(".ion-chevron-down",".info-div")}}}angular.module("mentorSite").directive("scrollArrow",o)}();

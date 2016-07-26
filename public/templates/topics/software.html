@@ -1,12 +1,12 @@
 <div class="mentor-container" ng-controller="MentorCtrl" >
-	<h1 class="software">Software Mentors</h1>
-	<h5>Choose one to schedule an appointment</h5>
-	<div class="icon-container clearfix">
+	<h1 id="software">Software Mentors</h1>
+	<h5 id="software-h5">Choose one to schedule an appointment</h5>
+	<div class="icon-container clearfix software-div">
 		<div class="icons clearfix mentor-panel" ng-repeat="mentors in software">
-			<a ui-sref="{{mentors.template}}"><img src="{{mentors.image}}" class="mentor-image" alt="">
+			<div class="mentor-image"><a ui-sref="{{mentors.template}}"><img src="{{mentors.image}}"  class="mentor-image" alt=""></a></div>
 			<h2>{{mentors.name}}</h2>
-			<h3>Subjects: <span><h4>{{mentors.subjects}}</h4></span></h3>
-			<h4>Years Experience: <span><h5>{{mentors.years}}</h5></span></h4></a>
+			<h3><u>Subjects</u> <h6>{{mentors.subjects}}</h6></h3>
+			<h4><u>Years Experience</u> <h5>{{mentors.years}}</h5></h4>
 		</div>
 	</div>
 </div>
