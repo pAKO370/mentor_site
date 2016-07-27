@@ -26,34 +26,25 @@
 		</form>
 	</div>
 	<div class="profile-info icon-container editable" ng-show="!editable">
-		<div>
+		<div id='profile'>
 		<gravatar-image></gravatar-image>
-		<br>
-		<table style="width:100%">
-  		<tr>
-    		<td>Name:</td>
-    		<td>{{info.name}}</td>
-  		</tr>
-  		<tr>
-    		<td>Age</td>
-    		<td>{{info.age}}</td>
-  		</tr>
-  		<tr>
-    		<td>Topics: </td>
-    		<td>{{info.topic}}</td>
-  		</tr>
-  		<tr>
-    		<td>Years Experience:</td>
-    		<td>{{info.years}}</td>
-  		</tr>
-  		<tr>
-    		<td id="center">Background</td>
-    		<td></td>
-  		</tr>
-		</table>
-		<p>{{info.background}}</p>
-		
-		<button class="btn btn-danger pull-right" ng-click="edit()">Edit</button>
+    		<h2 class="profile-name">Name:</h2>
+    		<h2 class="profile-info-right">{{info.name}}</h2>
+  		
+    		<h2 class="profile-name">Age</h2>
+    		<h2 class="profile-info-right">{{info.age}}</h2>
+  		
+    		<h2 class="profile-name">Topics: </h2>
+    		<h2 class="profile-info-right">{{info.topic}}</h2>
+  		
+    		<h2 class="profile-name">Years Experience:</h2>
+    		<h2 class="profile-info-right">{{info.years}}</h2>
+  		
+				<h2 class="profile-center"><u>Background</u></h2>
+				<h4 class="profile-center">{{info.background}}</h4>
+			<br>
+			<br>
+			<button class="btn btn-danger pull-right" ng-click="edit()">Edit</button>
 		</div>
 	</div>		
 </div>

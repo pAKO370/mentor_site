@@ -259,6 +259,7 @@ ul li a:hover{
 	-webkit-box-ordinal-group: 0;
 	-ms-flex-order: -1;
 	order: -1;
+	margin: 20px;
 }
 .bot{
 	background: #67809F;
@@ -443,11 +444,47 @@ ul li a:hover{
 .logged-in p {
 	font-size: 1.4rem;
 }
+	.container {
+		position: absolute;
+		background: rgba(255,255,255,.2);
+		border-radius: 20px;
+		box-shadow: 0px 0px 30px 2px white;
+		height: 350px;
+		top: calc(50% - 180px);
+		width: 300px;
+		left: calc(50% - 150px);		
+	}
+		.container-reg {
+		position: absolute;
+		background: rgba(255,255,255,.2);
+		border-radius: 20px;
+		box-shadow: 0px 0px 30px 2px white;
+		height: 500px;
+		top: calc(50% - 275px);
+		width: 350px;
+		left: calc(50% - 175px);
+		padding: 40px;
+	}
+	.holder {
+		width: 100%;
+		height: 100vh;
+		background: linear-gradient(-0deg,#DA762D,#673650,#3D4B9D,#072481);
+		padding: 40px;
+	}
 
 
 
 
 @media(min-width: 560px){
+	.mobile-nav ul li {
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	color: white;
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
 .icons{
 		width: 50%;
 		display: flex;
@@ -456,6 +493,25 @@ ul li a:hover{
 		align-items: center;
 		
 	}
+		.container {
+		height: 275px;
+		top: calc(50% - 90px);
+		width: 500px;
+		left: calc(50% - 250px);
+	}
+		.container-reg {
+		height: 450px;
+		top: calc(50% - 90px);
+		width: 500px;
+		left: calc(50% - 250px);
+	}
+	.holder {
+		width: 100%;
+		height: 190vh;
+		background: linear-gradient(-0deg,#DA762D,#673650,#3D4B9D,#072481);
+		padding: 40px;
+	}
+	
 	.mentor-h1{
 		font-size: 3.5rem;
 		margin: -30px 0 10px 0;
@@ -486,6 +542,12 @@ ul li a:hover{
 ------------------
 -------*/
 @media(min-width: 775px){
+	#login-h2{
+		margin-bottom: 30px;
+	}
+	#reg-h2{
+		margin-bottom: 30px;
+	}
 	.mobile-nav{
 		display: none;
 	}
@@ -779,5 +841,59 @@ ul li a:hover{
 	}
 	.editable{
 		margin-top: 100px;
+	}
+	.container {
+		position: absolute;
+		background: rgba(255,255,255,.2);
+		border-radius: 20px;
+		box-shadow: 0px 0px 30px 2px white;
+		height: 300px;
+		top: calc(50% - 150px);
+		width: 750px;
+		left: calc(50% - 375px);		
+	}
+		.container-reg {
+		position: absolute;
+		background: rgba(255,255,255,.2);
+		border-radius: 20px;
+		box-shadow: 0px 0px 30px 2px white;
+		height: 450px;
+		top: calc(50% - 225px);
+		width: 750px;
+		left: calc(50% - 375px);
+		padding: 40px;
+	}
+	.holder {
+		width: 100%;
+		height: 100vh;
+		background: linear-gradient(-0deg,#DA762D,#673650,#3D4B9D,#072481);
+		padding: 40px;
+		position: relative;
+	}
+
+	.edit-form{
+		width: 750px;
+	}
+	#profile{
+		width: 750px;
+	}
+	.profile-name, .profile-info-right{
+		display: block;
+		width: 49%;
+		margin: 20px 0px;
+		padding: 0;
+		float: left;
+	}
+	.profile-info-right{
+		text-align: right;
+	}
+	.profile-center {
+		width: 100%;
+		text-align: center;
+	}
+	.gravatar img{
+		width: 150px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 20px 0px white;
 	}
 }
