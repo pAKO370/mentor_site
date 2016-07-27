@@ -354,11 +354,11 @@ ul li a:hover{
 		background-position: top;
 		background-size: contain;
 		width: 100%;
-		min-height: 900px;
+		min-height: 100vh;
 		display: flex;
 		margin-top: 0px;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: center;
 		color: black;
 		bottom: 0;
@@ -392,6 +392,7 @@ ul li a:hover{
 		align-items: center;
 		box-shadow: 1px 1px 20px 4px gray;
 		color: white;
+		padding: 20px 0px;
 	}
 	.icons{
 		width: 90%;
@@ -471,26 +472,44 @@ ul li a:hover{
 		background: linear-gradient(-0deg,#DA762D,#673650,#3D4B9D,#072481);
 		padding: 40px;
 	}
+	.edit-form{
+		width: 300px;
+	}
+	#profile{
+		width: 300px;
+	}
+	.profile-name, .profile-info-right{
+		font-size: 1.3rem;
+		display: block;
+		width: 49%;
+		margin: 10px 0px;
+		padding: 0;
+		float: left;
+	}
+	.profile-info-right{
+		text-align: right;
+	}
+	.profile-center {
+		font-size: 1.3rem;
+		width: 100%;
+		text-align: center;
+	}
+	.gravatar img{
+		margin: 10px 0px;
+		width: 100px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 20px 0px white;
+	}
 
 
 
 
 @media(min-width: 560px){
 	.mobile-nav ul li {
-	width: 100%;
-	list-style: none;
-	text-align: center;
-	color: white;
 	font-size: 2rem;
-	font-weight: 400;
-	margin-bottom: 30px;
 }
 .icons{
 		width: 50%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 		
 	}
 		.container {
@@ -518,15 +537,9 @@ ul li a:hover{
 	}
 	.mentor-h3{
 		font-size:1.8rem;
-		margin: 0 0 10px 0;
 	}
 	.mentor-h4{
 		font-size: 1.4rem;
-		margin: 10px 0 10px 0;
-	}
-	.title{
-		font-size: 2rem;
-		margin-top: -20px;
 	}
 	.landing-title h4{
 	text-shadow: 1px 1px 1px aqua;
@@ -562,25 +575,13 @@ ul li a:hover{
 
 	}
 	.nav-bar-top {
-		position: fixed;
-		width: 100%;
-		top: 0;
-		left: 0;
 		padding: 10px 0px;
-
 	}
 	.nav-bar-top ul{
 		display: inline-block;
-		width: 65%;
-		margin: 0;
-		padding: 0px;
-		float: right;
 	}
 	.nav-bar-top ul li {
-		float: left;
 		width: 25%;
-		list-style: none;
-		text-align: center;
 		font-size: 1.8rem;
 	}
 	.nav-bar-top a{
@@ -589,23 +590,13 @@ ul li a:hover{
 
 	.landing-title h1 {
 	font-size: 12rem;
-	color: white;
-	text-shadow: 1px 2px 15px aqua;
-	margin: 0px;
 }
 .landing-title h4{
 	text-shadow: 1px 1px 1px aqua;
 	font-size: 1.2em;
-	color: white;
 }
 .landing-title .ion-chevron-down{
 	font-size: 7rem;
-	text-shadow: 1px 1px 5px aqua;
-	-webkit-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out;
-}
-.landing-title .ion-chevron-down:hover {
-	text-shadow: 3px 3px 20px aqua;
 }
 	.second {
 	display: -webkit-box;
@@ -624,38 +615,16 @@ ul li a:hover{
 	background: #344B5B;
 	
 }
-.ion-ios-people, .ion-ios-calendar,.ion-ios-star{
-	font-size: 10rem;
-}
-.info-div{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-ms-flex-line-pack: center;
-	align-content: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	text-align: center;
-}
 .info-div h1{
-	margin: 0;
 	padding: 30px;
 	font-size: 4rem;
-	font-weight: 700;
 }
 .info-div p{
 	font-size: 2.3rem;
-	margin-left: 10px;
 
 }
 
 .info-div img {
-	width: 100%;
 	-webkit-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
 }
@@ -697,19 +666,10 @@ ul li a:hover{
 	.left-nav{
 		width: 30%;
 		height: 100%;
-		margin: 0;
-		color: white;
 		max-height: 300px;
 	}
 	.left-nav li {
-		list-style: none;
-		margin: 15px 0px;
 		font-size: 2rem;
-		color: white;
-	}
-	.left-nav a {
-		color: white;
-		text-decoration: none;
 	}
 	.social-media{
 		width: 30%;
@@ -853,10 +813,6 @@ ul li a:hover{
 		left: calc(50% - 375px);		
 	}
 		.container-reg {
-		position: absolute;
-		background: rgba(255,255,255,.2);
-		border-radius: 20px;
-		box-shadow: 0px 0px 30px 2px white;
 		height: 450px;
 		top: calc(50% - 225px);
 		width: 750px;
@@ -878,6 +834,7 @@ ul li a:hover{
 		width: 750px;
 	}
 	.profile-name, .profile-info-right{
+		font-size: 3rem;
 		display: block;
 		width: 49%;
 		margin: 20px 0px;
@@ -888,6 +845,7 @@ ul li a:hover{
 		text-align: right;
 	}
 	.profile-center {
+		font-size: 2.7rem;
 		width: 100%;
 		text-align: center;
 	}
