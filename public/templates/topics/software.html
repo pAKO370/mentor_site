@@ -1,6 +1,9 @@
 <div class="mentor-container" ng-controller="MentorCtrl" >
 	<h1 id="software">Software Mentors</h1>
 	<h5 id="software-h5">Choose one to schedule an appointment</h5>
+	<div ng-controller="UserCtrl">
+		<h5 style="color: red" ng-hide="authData">Must be logged in to choose a mentor!</h5>
+	</div>
 	<div class="icon-container clearfix software-div">
 		<div class="icons clearfix mentor-panel" ng-repeat="mentors in software">
 			<div class="mentor-image"><a ui-sref="{{mentors.template}}"><img src="{{mentors.image}}"  class="mentor-image" alt=""></a></div>

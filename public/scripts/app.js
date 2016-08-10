@@ -38,12 +38,7 @@
 		})
 		.state('software', {
 			url: '/software',
-			templateUrl: 'templates/topics/software.html',
-			resolve: {
-				"currentAuth": ['Auth' , function(Auth){
-					return Auth.$requireAuth();
-				}]
-			}
+			templateUrl: 'templates/topics/software.html'
 		})
 		.state('design', {
 			url: '/design',
@@ -72,7 +67,12 @@
 		})
 		.state('phil',{
 			url: '/philF',
-			templateUrl: 'templates/topics/mentors/phil.html'
+			templateUrl: 'templates/topics/mentors/phil.html',
+			resolve: {
+				"currentAuth": ['Auth' , function(Auth){
+					return Auth.$requireAuth();
+				}]
+			}
 		})
 		.state('adam',{
 			url: '/adamL',
